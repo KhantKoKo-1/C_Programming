@@ -1,0 +1,52 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+
+int r=(4*2);
+int x,y,z=0;
+int uspace=1;
+   int i=0;
+   int g=4;
+    for(i=0;i<=4;i++){
+        for (int space=0;space<=g;space++){
+            printf(" ");
+
+        }
+
+    for(int star=0;star<=(i*2);star++){
+
+        printf("*");
+    }
+        printf("\t\t");
+
+ printf("\n");g--;
+
+    }
+for(x=0;x<=4;x++){
+    for(y=0;y<uspace;y++){
+
+        printf(" ");
+
+
+    }
+for (z=0;z<=r;z++){
+
+    printf("*");
+}
+printf("\n");uspace++;r=r-2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    return 0;
+}
