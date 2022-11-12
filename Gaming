@@ -1,0 +1,159 @@
+#include <stdio.h>
+
+#include <stdlib.h>
+
+int mail ();
+
+int main(){
+
+    char c=0;
+
+    int id=0;
+
+    int ph=0;
+
+    int otg=0;
+
+    int secpw=0;a
+
+    int pw=0;
+
+	int smoney=0;	int g=2999;
+
+	int lnum=0;
+
+	printf("****KKK Gaming****\n");
+
+		
+
+	printf("Hello user \nDo you have KKK Gaming account?\nYES(Y) or NO(N)\n ",c);
+
+	
+
+		scanf(" %c",&c);
+
+      
+
+	
+
+	   if (c =='Y'){
+
+		while(id!=12345){
+
+		printf("please enter  your id =",id);
+
+	    scanf("%d",&id);}
+
+	    printf("Your id is = %d\n (correct)!\n",id);
+
+		
+
+	    while(pw!=2222){
+
+		
+
+	    	printf(" Enter  your password=",pw);
+
+	    
+
+	    scanf("%d",&pw);}
+
+	    
+
+	    
+
+	    
+
+    	}else
+
+      if (c=='N'){
+
+        while(ph!=12345){
+
+      	printf("please sigh in with your ph number= ",ph);
+
+      	scanf("%d",&ph);}
+
+      	
+
+     printf("Your Otg code is %d\n",999*(rand()%70),otg);
+
+     		
+
+      	if(otg!=999*(rand()%70)){
+
+      	printf(" Enter your New password=");
+
+	        scanf("%d",& pw);}else  ; 
+
+	      do{
+
+		
+
+	    printf(" Enter Confirm password=",secpw);
+
+	    
+
+	    scanf("%d",&secpw);
+
+	      	
+
+	      	}while(secpw!=pw);
+
+      
+
+     	}else;
+
+	printf("Welcome player\n");
+
+       do{
+
+    
+
+     printf(" You can play with KKK money$$$\n Enter Your show money 3000 or 3000++=",smoney);	
+
+     	
+
+    
+
+     	 scanf ("%d",&smoney);
+
+     }while(smoney<=g);
+
+     	printf("Your show money is =%d",smoney);
+
+      	
+
+     	for(lnum=20;lnum<=20;lnum--){
+
+     	printf(" What is Your Lucky house's number\nPlease slect 1 to 20 =",lnum);
+
+     	
+
+     	scanf("%d",&lnum);
+
+     	}
+
+     	if(lnum==1||lnum==23){}
+
+     	
+
+     	
+
+     	   return 0;
+
+	}
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
